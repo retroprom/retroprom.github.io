@@ -1,0 +1,58 @@
+@import "pages.css";
+
+/* Page container */
+body {
+  /* no margin and padding */
+  margin: 0 auto;
+  padding: 0;
+  /* make it a flex layout */
+  display: flex;
+  flex-direction: column;
+  /*justify-content: start;*/
+}
+
+/* Insert page breaks */
+.page {
+  page-break-inside: avoid;
+  page-break-after: always;
+}
+
+/* Print medium */
+@media print {
+  body {
+    background-color: magenta;
+  }
+  .page {
+    margin: 0;
+  }
+}
+
+/* Screen medium */
+@media screen {
+  body {
+    background-color: darkgray;
+  }
+  .page {
+    margin: 2em auto;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Default page class */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+/* Page classes */
+@page A0-portrait  { size: A0;  }
+@page A1-portrait  { size: A1;  }
+@page A2-portrait  { size: A2;  }
+@page A3-portrait  { size: A3;  }
+@page A4-portrait  { size: A4;  }
+@page A5-portrait  { size: A5;  }
+@page A6-portrait  { size: A6;  }
+@page A7-portrait  { size: A7;  }
+@page A8-portrait  { size: A8;  }
+@page A9-portrait  { size: A9;  }
+@page A10-portrait { size: A10; }

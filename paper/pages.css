@@ -1,0 +1,47 @@
+/* Definitions for paper-size HTML elements */
+
+:root {
+  --margin: 1cm;
+}
+
+/* Base definitions */
+
+.page {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  background: white;
+  padding: var(--margin);
+  /* clip pages */
+  overflow: hidden;
+  /* default paper */
+  page:   A4-portrait;
+  height: 297mm;
+  width:  210mm;
+}
+
+/* ISO 216 A series */
+
+.A0  { page: A0-portrait;  width:  841mm; height: 1189mm; }
+.A1  { page: A1-portrait;  width:  594mm; height:  841mm; }
+.A2  { page: A2-portrait;  width:  420mm; height:  594mm; }
+.A3  { page: A3-portrait;  width:  297mm; height:  420mm; }
+.A4  { page: A4-portrait;  width:  210mm; height:  297mm; }
+.A5  { page: A5-portrait;  width:  148mm; height:  210mm; }
+.A6  { page: A6-portrait;  width:  105mm; height:  148mm; }
+.A7  { page: A7-portrait;  width:   74mm; height:  105mm; }
+.A8  { page: A8-portrait;  width:   52mm; height:   74mm; }
+.A9  { page: A9-portrait;  width:   37mm; height:   52mm; }
+.A10 { page: A10-portrait; width:   26mm; height:   37mm; }
+
+.A0  .landscape { page: A0-landscape;  height:  841mm; width: 1189mm; }
+.A1  .landscape { page: A1-landscape;  height:  594mm; width:  841mm; }
+.A2  .landscape { page: A2-landscape;  height:  420mm; width:  594mm; }
+.A3  .landscape { page: A3-landscape;  height:  297mm; width:  420mm; }
+.A4  .landscape { page: A4-landscape;  height:  210mm; width:  297mm; }
+.A5  .landscape { page: A5-landscape;  height:  148mm; width:  210mm; }
+.A6  .landscape { page: A6-landscape;  height:  105mm; width:  148mm; }
+.A7  .landscape { page: A7-landscape;  height:   74mm; width:  105mm; }
+.A8  .landscape { page: A8-landscape;  height:   52mm; width:   74mm; }
+.A9  .landscape { page: A9-landscape;  height:   37mm; width:   52mm; }
+.A10 .landscape { page: A10-landscape; height:   26mm; width:   37mm; }

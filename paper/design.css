@@ -1,0 +1,19 @@
+@media screen {
+  /* Show page overflow */
+  .page {
+    overflow: visible;
+  }
+  /* Margin markings */
+  .page::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: calc(100% - var(--margin) * 2);
+    height: calc(100% - var(--margin) * 2);
+    margin: var(--margin);
+    outline: thin dashed darkgray;
+    pointer-events: none;
+    z-index: 9999;
+  }
+}
