@@ -1,0 +1,713 @@
+/* FXMatrix105MonoCompr */
+@font-face {
+    font-family: "FXMatrix105MonoCompr";
+    font-style: normal;
+    font-weight: normal;
+    src: url('FXMatrix105MonoComprRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoCompr";
+    font-style: italic;
+    font-weight: normal;
+    src: url('FXMatrix105MonoComprItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoCompr";
+    font-style: normal;
+    font-weight: bold;
+    src: url('FXMatrix105MonoComprDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoCompr";
+    font-style: italic;
+    font-weight: bold;
+    src: url('FXMatrix105MonoComprDblItalic.woff') format('woff');
+}
+
+/* FXMatrix105MonoElite */
+@font-face {
+    font-family: "FXMatrix105MonoElite";
+    font-style: normal;
+    font-weight: normal;
+    src: url('FXMatrix105MonoEliteRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoElite";
+    font-style: italic;
+    font-weight: normal;
+    src: url('FXMatrix105MonoEliteItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoElite";
+    font-style: normal;
+    font-weight: bold;
+    src: url('FXMatrix105MonoEliteDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoElite";
+    font-style: italic;
+    font-weight: bold;
+    src: url('FXMatrix105MonoEliteDblItalic.woff') format('woff');
+}
+
+/* FXMatrix105MonoPica */
+@font-face {
+    font-family: "FXMatrix105MonoPica";
+    font-style: normal;
+    font-weight: normal;
+    src: url('FXMatrix105MonoPicaRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPica";
+    font-style: normal;
+    font-weight: bold;
+    src: url('FXMatrix105MonoPicaDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPica";
+    font-style: normal;
+    font-weight: bolder;
+    src: url('FXMatrix105MonoPicaDblBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPica";
+    font-style: italic;
+    font-weight: normal;
+    src: url('FXMatrix105MonoPicaItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPica";
+    font-style: italic;
+    font-weight: bold;
+    src: url('FXMatrix105MonoPicaDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPica";
+    font-style: italic;
+    font-weight: bolder;
+    src: url('FXMatrix105MonoPicaDblBoldItalic.woff') format('woff');
+}
+
+/* FXMatrix105PropPica */
+@font-face {
+    font-family: "FXMatrix105PropPica";
+    font-style: normal;
+    font-weight: normal;
+    src: url('FXMatrix105PropPicaRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPica";
+    font-style: italic;
+    font-weight: normal;
+    src: url('FXMatrix105PropPicaItalic.woff') format('woff');
+}
+
+/* Individual fonts */
+@font-face {
+    font-family: "FXMatrix105MonoComprDblItalic";
+    src: url('FXMatrix105MonoComprDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblRegular";
+    src: url('FXMatrix105MonoComprDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblSubItalic";
+    src: url('FXMatrix105MonoComprDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblSubRegular";
+    src: url('FXMatrix105MonoComprDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblSupItalic";
+    src: url('FXMatrix105MonoComprDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblSupRegular";
+    src: url('FXMatrix105MonoComprDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblULItalic";
+    src: url('FXMatrix105MonoComprDblULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblULRegular";
+    src: url('FXMatrix105MonoComprDblULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblULSubItalic";
+    src: url('FXMatrix105MonoComprDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblULSubRegular";
+    src: url('FXMatrix105MonoComprDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblULSupItalic";
+    src: url('FXMatrix105MonoComprDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprDblULSupRegular";
+    src: url('FXMatrix105MonoComprDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblItalic";
+    src: url('FXMatrix105MonoComprExpDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblRegular";
+    src: url('FXMatrix105MonoComprExpDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblSubItalic";
+    src: url('FXMatrix105MonoComprExpDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblSubRegular";
+    src: url('FXMatrix105MonoComprExpDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblSupItalic";
+    src: url('FXMatrix105MonoComprExpDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblSupRegular";
+    src: url('FXMatrix105MonoComprExpDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblULItalic";
+    src: url('FXMatrix105MonoComprExpDblULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblULRegular";
+    src: url('FXMatrix105MonoComprExpDblULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblULSubItalic";
+    src: url('FXMatrix105MonoComprExpDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblULSubRegular";
+    src: url('FXMatrix105MonoComprExpDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblULSupItalic";
+    src: url('FXMatrix105MonoComprExpDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpDblULSupRegular";
+    src: url('FXMatrix105MonoComprExpDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpItalic";
+    src: url('FXMatrix105MonoComprExpItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpRegular";
+    src: url('FXMatrix105MonoComprExpRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpULItalic";
+    src: url('FXMatrix105MonoComprExpULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprExpULRegular";
+    src: url('FXMatrix105MonoComprExpULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprItalic";
+    src: url('FXMatrix105MonoComprItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprRegular";
+    src: url('FXMatrix105MonoComprRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprULItalic";
+    src: url('FXMatrix105MonoComprULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoComprULRegular";
+    src: url('FXMatrix105MonoComprULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblItalic";
+    src: url('FXMatrix105MonoEliteDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblRegular";
+    src: url('FXMatrix105MonoEliteDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblSubItalic";
+    src: url('FXMatrix105MonoEliteDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblSubRegular";
+    src: url('FXMatrix105MonoEliteDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblSupItalic";
+    src: url('FXMatrix105MonoEliteDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblSupRegular";
+    src: url('FXMatrix105MonoEliteDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblULItalic";
+    src: url('FXMatrix105MonoEliteDblULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblULRegular";
+    src: url('FXMatrix105MonoEliteDblULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblULSubItalic";
+    src: url('FXMatrix105MonoEliteDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblULSubRegular";
+    src: url('FXMatrix105MonoEliteDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblULSupItalic";
+    src: url('FXMatrix105MonoEliteDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteDblULSupRegular";
+    src: url('FXMatrix105MonoEliteDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblItalic";
+    src: url('FXMatrix105MonoEliteExpDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblRegular";
+    src: url('FXMatrix105MonoEliteExpDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblSubItalic";
+    src: url('FXMatrix105MonoEliteExpDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblSubRegular";
+    src: url('FXMatrix105MonoEliteExpDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblSupItalic";
+    src: url('FXMatrix105MonoEliteExpDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblSupRegular";
+    src: url('FXMatrix105MonoEliteExpDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblULItalic";
+    src: url('FXMatrix105MonoEliteExpDblULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblULRegular";
+    src: url('FXMatrix105MonoEliteExpDblULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblULSubItalic";
+    src: url('FXMatrix105MonoEliteExpDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblULSubRegular";
+    src: url('FXMatrix105MonoEliteExpDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblULSupItalic";
+    src: url('FXMatrix105MonoEliteExpDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpDblULSupRegular";
+    src: url('FXMatrix105MonoEliteExpDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpItalic";
+    src: url('FXMatrix105MonoEliteExpItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpRegular";
+    src: url('FXMatrix105MonoEliteExpRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpULItalic";
+    src: url('FXMatrix105MonoEliteExpULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteExpULRegular";
+    src: url('FXMatrix105MonoEliteExpULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteItalic";
+    src: url('FXMatrix105MonoEliteItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteRegular";
+    src: url('FXMatrix105MonoEliteRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteULItalic";
+    src: url('FXMatrix105MonoEliteULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoEliteULRegular";
+    src: url('FXMatrix105MonoEliteULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaBoldItalic";
+    src: url('FXMatrix105MonoPicaBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaBold";
+    src: url('FXMatrix105MonoPicaBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblBoldItalic";
+    src: url('FXMatrix105MonoPicaDblBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblBold";
+    src: url('FXMatrix105MonoPicaDblBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblItalic";
+    src: url('FXMatrix105MonoPicaDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblRegular";
+    src: url('FXMatrix105MonoPicaDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSubBoldItalic";
+    src: url('FXMatrix105MonoPicaDblSubBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSubBold";
+    src: url('FXMatrix105MonoPicaDblSubBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSubItalic";
+    src: url('FXMatrix105MonoPicaDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSubRegular";
+    src: url('FXMatrix105MonoPicaDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSupBoldItalic";
+    src: url('FXMatrix105MonoPicaDblSupBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSupBold";
+    src: url('FXMatrix105MonoPicaDblSupBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSupItalic";
+    src: url('FXMatrix105MonoPicaDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblSupRegular";
+    src: url('FXMatrix105MonoPicaDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULBoldItalic";
+    src: url('FXMatrix105MonoPicaDblULBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULBold";
+    src: url('FXMatrix105MonoPicaDblULBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULItalic";
+    src: url('FXMatrix105MonoPicaDblULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULRegular";
+    src: url('FXMatrix105MonoPicaDblULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSubBoldItalic";
+    src: url('FXMatrix105MonoPicaDblULSubBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSubBold";
+    src: url('FXMatrix105MonoPicaDblULSubBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSubItalic";
+    src: url('FXMatrix105MonoPicaDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSubRegular";
+    src: url('FXMatrix105MonoPicaDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSupBoldItalic";
+    src: url('FXMatrix105MonoPicaDblULSupBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSupBold";
+    src: url('FXMatrix105MonoPicaDblULSupBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSupItalic";
+    src: url('FXMatrix105MonoPicaDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaDblULSupRegular";
+    src: url('FXMatrix105MonoPicaDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpBoldItalic";
+    src: url('FXMatrix105MonoPicaExpBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpBold";
+    src: url('FXMatrix105MonoPicaExpBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblBoldItalic";
+    src: url('FXMatrix105MonoPicaExpDblBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblBold";
+    src: url('FXMatrix105MonoPicaExpDblBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblItalic";
+    src: url('FXMatrix105MonoPicaExpDblItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblRegular";
+    src: url('FXMatrix105MonoPicaExpDblRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSubBoldItalic";
+    src: url('FXMatrix105MonoPicaExpDblSubBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSubBold";
+    src: url('FXMatrix105MonoPicaExpDblSubBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSubItalic";
+    src: url('FXMatrix105MonoPicaExpDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSubRegular";
+    src: url('FXMatrix105MonoPicaExpDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSupBoldItalic";
+    src: url('FXMatrix105MonoPicaExpDblSupBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSupBold";
+    src: url('FXMatrix105MonoPicaExpDblSupBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSupItalic";
+    src: url('FXMatrix105MonoPicaExpDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblSupRegular";
+    src: url('FXMatrix105MonoPicaExpDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULBoldItalic";
+    src: url('FXMatrix105MonoPicaExpDblULBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULBold";
+    src: url('FXMatrix105MonoPicaExpDblULBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULItalic";
+    src: url('FXMatrix105MonoPicaExpDblULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULRegular";
+    src: url('FXMatrix105MonoPicaExpDblULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSubBoldItalic";
+    src: url('FXMatrix105MonoPicaExpDblULSubBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSubBold";
+    src: url('FXMatrix105MonoPicaExpDblULSubBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSubItalic";
+    src: url('FXMatrix105MonoPicaExpDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSubRegular";
+    src: url('FXMatrix105MonoPicaExpDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSupBoldItalic";
+    src: url('FXMatrix105MonoPicaExpDblULSupBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSupBold";
+    src: url('FXMatrix105MonoPicaExpDblULSupBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSupItalic";
+    src: url('FXMatrix105MonoPicaExpDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpDblULSupRegular";
+    src: url('FXMatrix105MonoPicaExpDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpItalic";
+    src: url('FXMatrix105MonoPicaExpItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpRegular";
+    src: url('FXMatrix105MonoPicaExpRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpULBoldItalic";
+    src: url('FXMatrix105MonoPicaExpULBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpULBold";
+    src: url('FXMatrix105MonoPicaExpULBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpULItalic";
+    src: url('FXMatrix105MonoPicaExpULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaExpULRegular";
+    src: url('FXMatrix105MonoPicaExpULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaItalic";
+    src: url('FXMatrix105MonoPicaItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaRegular";
+    src: url('FXMatrix105MonoPicaRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaULBoldItalic";
+    src: url('FXMatrix105MonoPicaULBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaULBold";
+    src: url('FXMatrix105MonoPicaULBold.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaULItalic";
+    src: url('FXMatrix105MonoPicaULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105MonoPicaULRegular";
+    src: url('FXMatrix105MonoPicaULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblSubItalic";
+    src: url('FXMatrix105PropPicaDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblSubRegular";
+    src: url('FXMatrix105PropPicaDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblSupItalic";
+    src: url('FXMatrix105PropPicaDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblSupRegular";
+    src: url('FXMatrix105PropPicaDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblULSubItalic";
+    src: url('FXMatrix105PropPicaDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblULSubRegular";
+    src: url('FXMatrix105PropPicaDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblULSupItalic";
+    src: url('FXMatrix105PropPicaDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaDblULSupRegular";
+    src: url('FXMatrix105PropPicaDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblSubItalic";
+    src: url('FXMatrix105PropPicaExpDblSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblSubRegular";
+    src: url('FXMatrix105PropPicaExpDblSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblSupItalic";
+    src: url('FXMatrix105PropPicaExpDblSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblSupRegular";
+    src: url('FXMatrix105PropPicaExpDblSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblULSubItalic";
+    src: url('FXMatrix105PropPicaExpDblULSubItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblULSubRegular";
+    src: url('FXMatrix105PropPicaExpDblULSubRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblULSupItalic";
+    src: url('FXMatrix105PropPicaExpDblULSupItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpDblULSupRegular";
+    src: url('FXMatrix105PropPicaExpDblULSupRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpItalic";
+    src: url('FXMatrix105PropPicaExpItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpRegular";
+    src: url('FXMatrix105PropPicaExpRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpULItalic";
+    src: url('FXMatrix105PropPicaExpULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaExpULRegular";
+    src: url('FXMatrix105PropPicaExpULRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaItalic";
+    src: url('FXMatrix105PropPicaItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaRegular";
+    src: url('FXMatrix105PropPicaRegular.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaULItalic";
+    src: url('FXMatrix105PropPicaULItalic.woff') format('woff');
+}
+@font-face {
+    font-family: "FXMatrix105PropPicaULRegular";
+    src: url('FXMatrix105PropPicaULRegular.woff') format('woff');
+}
