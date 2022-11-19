@@ -1,0 +1,50 @@
+@import "fxmatrix/fxmatrix.css";
+* {
+    font-family: 'FXMatrix105MonoElite';
+    font-size: 10pt;
+    font-weight: normal;
+    color: #444;
+}
+h1,h2 {
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+}
+h3,h4,h5,h6,p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+h1 {
+    font-family: 'FXMatrix105MonoPica', Monospace;
+    font-style: italic;
+    font-weight: bolder;
+}
+h2 {
+    font-family: 'FXMatrix105MonoPica', Monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'FXMatrix105MonoPica', Monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+h4 {
+    font-family: 'FXMatrix105MonoPica', Monospace;
+    font-style: italic;
+}
+h5 {
+    font-family: 'FXMatrix105MonoElite', Monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+h6 {
+    font-family: 'FXMatrix105MonoElite', Monospace;
+    font-style: italic;
+}
+ul {
+    padding-left: 1em;
+    list-style-type: none;
+}
+ul li::before {
+    content: '* ';
+}
